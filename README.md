@@ -90,7 +90,5 @@ Le fichier `.github/workflows/maven-build.yml` contient les étapes suivantes :
 ## Licence
 Ce projet est sous licence MIT.
 
-# Projet DevOps - El Khattabi Mohamed Amine
-Branch dev - En cours de développement
 
 
