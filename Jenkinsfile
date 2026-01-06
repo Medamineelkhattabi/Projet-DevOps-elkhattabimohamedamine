@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        maven 'Maven-3.9'  // ⚠️ Remplacez par le nom exact de votre Maven
+        maven 'Maven-3.9'
     }
     
     stages {
@@ -16,14 +16,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo '=== Build du projet avec Maven ==='
-                bat 'mvn clean install -DskipTests'  // bat pour Windows
+                sh 'mvn clean install -DskipTests'  // sh pour Linux/Docker
             }
         }
         
         stage('Test') {
             steps {
                 echo '=== Exécution des tests ==='
-                bat 'mvn test'
+                sh 'mvn test'  // sh pour Linux/Docker
             }
             post {
                 always {
@@ -45,7 +45,6 @@ pipeline {
             steps {
                 echo '=== Déploiement de l\'application ==='
                 echo 'Application déployée avec succès sur le serveur local!'
-                // Vous pouvez ajouter des commandes de déploiement ici
             }
         }
         
