@@ -85,11 +85,12 @@ Le fichier `.github/workflows/maven-build.yml` contient les étapes suivantes :
 ## Auteur
 - **Nom** : Mohamed Amine El Khattabi
 - **Date** : 6 janvier 2026
-- **Contact** : [email@example.com](mailto:email@example.com)
+- **Contact** : [medamine4elkhattabi@gmail.com](mailto:medamine4elkhattabi@gmail.com)
 
 ## Licence
 Ce projet est sous licence MIT.
 
 # Projet DevOps - El Khattabi Mohamed Amine
 Branch dev - En cours de développement
+
 
